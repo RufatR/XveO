@@ -57,7 +57,6 @@ public class XveO {
     }
 
     public static boolean isWinner() {
-        // Check rows
         for (int i = 0; i < 3; i++) {
             if (board[i][0] == currentPlayer && board[i][1] == currentPlayer && board[i][2] == currentPlayer) {
                 return true;
